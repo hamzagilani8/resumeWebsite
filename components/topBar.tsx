@@ -6,7 +6,7 @@ const Topbar = ({ data }: { data: any }) => {
   return (
     <div className='flex flex-wrap sm:flex-col md:flex-row lg:justify-start lg:space-x-16 bg-black text-white p-8 xl:rounded-br-full'>
       <div>
-        <Image src='/Dp.jpg' alt={'Profile Picture'} width="200" height="200" className='rounded-full'></Image>
+        <Image src='/Dp.jpg' alt={'Profile Picture'} width="200" height="200" className='rounded-full border-8 border-white '></Image>
       </div>
       <div className='flex items-center sm:flex-col md:flex-row flex-wrap  lg:space-x-16 lg:space-y-32'>
         <span>
